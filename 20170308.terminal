@@ -1,36 +1,36 @@
 Last login: Wed Mar  8 19:03:04 on ttys001
-guoyaluns-MacBook-Pro:~ guoyalun$ cd Documents/demo/
+s-MacBook-Pro:~ $ cd Documents/demo/
 .git/      README.md  demo1      hello.py   int.py     math.py
-guoyaluns-MacBook-Pro:~ guoyalun$ cd /Users/guoyalun/Documents/demo/
-guoyaluns-MacBook-Pro:demo guoyalun$ ls
+s-MacBook-Pro:~ $ cd /Users//Documents/demo/
+s-MacBook-Pro:demo $ ls
 README.md demo1     hello.py  int.py    math.py
-guoyaluns-MacBook-Pro:demo guoyalun$ cd /
-guoyaluns-MacBook-Pro:/ guoyalun$ ls
+s-MacBook-Pro:demo $ cd /
+s-MacBook-Pro:/ $ ls
 Applications              Volumes                   home                      tmp
 Library                   bin                       installer.failurerequests usr
 Network                   cores                     net                       var
 System                    dev                       private
 Users                     etc                       sbin
-guoyaluns-MacBook-Pro:/ guoyalun$ cd Users/
-guoyaluns-MacBook-Pro:Users guoyalun$ ls
-Guest    Shared   guoyalun
-guoyaluns-MacBook-Pro:Users guoyalun$ cd guoyalun/
-guoyaluns-MacBook-Pro:~ guoyalun$ cd ~
-guoyaluns-MacBook-Pro:~ guoyalun$ cd
-guoyaluns-MacBook-Pro:~ guoyalun$ pwd
-/Users/guoyalun
-guoyaluns-MacBook-Pro:~ guoyalun$ cd Documents/demo/
-guoyaluns-MacBook-Pro:demo guoyalun$ ls -al
+s-MacBook-Pro:/ $ cd Users/
+s-MacBook-Pro:Users $ ls
+Guest    Shared
+s-MacBook-Pro:Users $ cd /
+s-MacBook-Pro:~ $ cd ~
+s-MacBook-Pro:~ $ cd
+s-MacBook-Pro:~ $ pwd
+/Users/
+s-MacBook-Pro:~ $ cd Documents/demo/
+s-MacBook-Pro:demo $ ls -al
 total 32
-drwxr-xr-x   8 guoyalun  staff   272 Mar  8 20:22 .
-drwx------+ 31 guoyalun  staff  1054 Mar  7 18:03 ..
-drwxr-xr-x  14 guoyalun  staff   476 Mar  6 21:06 .git
--rw-r--r--   1 guoyalun  staff    39 Mar  2 19:58 README.md
--rw-r--r--   1 guoyalun  staff     0 Mar  2 19:57 demo1
--rwxr-xr-x   1 guoyalun  staff  2423 Mar  6 20:40 hello.py
--rw-r--r--   1 guoyalun  staff   693 Mar  6 21:05 int.py
--rw-r--r--   1 guoyalun  staff    75 Mar  8 20:22 math.py
-guoyaluns-MacBook-Pro:demo guoyalun$ python math.py
+drwxr-xr-x   8   staff   272 Mar  8 20:22 .
+drwx------+ 31   staff  1054 Mar  7 18:03 ..
+drwxr-xr-x  14   staff   476 Mar  6 21:06 .git
+-rw-r--r--   1   staff    39 Mar  2 19:58 README.md
+-rw-r--r--   1   staff     0 Mar  2 19:57 demo1
+-rwxr-xr-x   1   staff  2423 Mar  6 20:40 hello.py
+-rw-r--r--   1   staff   693 Mar  6 21:05 int.py
+-rw-r--r--   1   staff    75 Mar  8 20:22 math.py
+s-MacBook-Pro:demo $ python math.py
 1
 2
 3
@@ -40,7 +40,7 @@ guoyaluns-MacBook-Pro:demo guoyalun$ python math.py
 7
 8
 9
-guoyaluns-MacBook-Pro:demo guoyalun$ python math.py
+s-MacBook-Pro:demo $ python math.py
 1
 4
 9
@@ -50,7 +50,7 @@ guoyaluns-MacBook-Pro:demo guoyalun$ python math.py
 49
 64
 81
-guoyaluns-MacBook-Pro:demo guoyalun$ python math.py
+s-MacBook-Pro:demo $ python math.py
 1*1=1
 2*2=4
 3*3=9
@@ -60,7 +60,7 @@ guoyaluns-MacBook-Pro:demo guoyalun$ python math.py
 7*7=49
 8*8=64
 9*9=81
-guoyaluns-MacBook-Pro:demo guoyalun$ python math.py
+s-MacBook-Pro:demo $ python math.py
 1*1=1
 2*2=4
 3*3=9
@@ -160,7 +160,7 @@ guoyaluns-MacBook-Pro:demo guoyalun$ python math.py
 97*97=9409
 98*98=9604
 99*99=9801
-guoyaluns-MacBook-Pro:demo guoyalun$ python math.py
+s-MacBook-Pro:demo $ python math.py
 99*99=9801
 100*100=10000
 101*101=10201
@@ -261,7 +261,7 @@ guoyaluns-MacBook-Pro:demo guoyalun$ python math.py
 196*196=38416
 197*197=38809
 198*198=39204
-guoyaluns-MacBook-Pro:demo guoyalun$ python math.py
+s-MacBook-Pro:demo $ python math.py
 99*99=9801
 100*100=10000
 101*101=10201
@@ -364,7 +364,7 @@ guoyaluns-MacBook-Pro:demo guoyalun$ python math.py
 198*198=39204
 zhangsan
 30
-guoyaluns-MacBook-Pro:demo guoyalun$ python math.py
+s-MacBook-Pro:demo $ python math.py
 99*99=9801
 100*100=10000
 101*101=10201
@@ -471,7 +471,7 @@ Traceback (most recent call last):
   File "math.py", line 13, in <module>
     print(persion[30])
 KeyError: 30
-guoyaluns-MacBook-Pro:demo guoyalun$ python math.py
+s-MacBook-Pro:demo $ python math.py
 99*99=9801
 100*100=10000
 101*101=10201
@@ -578,7 +578,7 @@ Traceback (most recent call last):
   File "math.py", line 13, in <module>
     print(persion[0])
 KeyError: 0
-guoyaluns-MacBook-Pro:demo guoyalun$ python math.py
+s-MacBook-Pro:demo $ python math.py
 99*99=9801
 100*100=10000
 101*101=10201
@@ -682,7 +682,7 @@ guoyaluns-MacBook-Pro:demo guoyalun$ python math.py
 zhangsan
 30
 99
-guoyaluns-MacBook-Pro:demo guoyalun$ python
+s-MacBook-Pro:demo $ python
 Python 2.7.10 (default, Oct 23 2015, 19:19:21)
 [GCC 4.2.1 Compatible Apple LLVM 7.0.0 (clang-700.0.59.5)] on darwin
 Type "help", "copyright", "credits" or "license" for more information.
@@ -731,23 +731,14 @@ set([1, 2, 3, 4, 5, '456'])
 >>> len(numberset)
 6
 >>> exit()
-guoyaluns-MacBook-Pro:demo guoyalun$ python math.py
+s-MacBook-Pro:demo $ python math.py
 1
 2
 3
 4
 6
 7
-guoyaluns-MacBook-Pro:demo guoyalun$ python math.py
-1
-2
-3
-4
-d
-6
-7
-ddd
-guoyaluns-MacBook-Pro:demo guoyalun$ python math.py
+s-MacBook-Pro:demo $ python math.py
 1
 2
 3
@@ -756,7 +747,7 @@ d
 6
 7
 ddd
-guoyaluns-MacBook-Pro:demo guoyalun$ python math.py
+s-MacBook-Pro:demo $ python math.py
 1
 2
 3
@@ -765,7 +756,16 @@ d
 6
 7
 ddd
-guoyaluns-MacBook-Pro:demo guoyalun$ python
+s-MacBook-Pro:demo $ python math.py
+1
+2
+3
+4
+d
+6
+7
+ddd
+s-MacBook-Pro:demo $ python
 Python 2.7.10 (default, Oct 23 2015, 19:19:21)
 [GCC 4.2.1 Compatible Apple LLVM 7.0.0 (clang-700.0.59.5)] on darwin
 Type "help", "copyright", "credits" or "license" for more information.
