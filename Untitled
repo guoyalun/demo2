@@ -1,0 +1,21 @@
+
+
+
+http : 超文本传输协议  邮递员  信封
+html ：超文本标记语言  信纸
+
+GET  取资源
+post  上传资源
+put   修改资源
+delete 删除资源
+
+GET  http://www.talicai.com/post/10000
+POST http://www.talicai.com/post/
+PUT  http://www.talicai.com/post/10000
+DELETE http://www.talicai.com/post/?postId=10000
+
+
+200+  成功
+300+  资源被移走  会返回一个新的地址
+400+  请求错误
+500+  服务器错误
